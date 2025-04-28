@@ -56,7 +56,7 @@ A simple Laravel API for managing products in a local shop. This API provides en
    php artisan migrate
    
 
-8. Configure Sanctum in your `.env` file (if using frontend):
+8. Configure Sanctum in your `.env` file
 
    SANCTUM_STATEFUL_DOMAINS=localhost,localhost:3000,127.0.0.1,127.0.0.1:8000
    
